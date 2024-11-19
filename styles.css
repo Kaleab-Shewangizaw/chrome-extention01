@@ -1,0 +1,67 @@
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  min-width: 500px;
+}
+
+#input-el {
+  width: 450px;
+  padding: 10px;
+  margin: 50px auto 30px;
+  border: none;
+  border-radius: 5px;
+  display: block;
+  font-size: 24px;
+}
+
+button {
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+#save-btn,
+#tab-btn {
+  background-color: #4caf50;
+  color: white;
+  font-weight: bold;
+  transition: all ease 0.3s;
+}
+
+#save-btn:hover,
+#tab-btn:hover {
+  background-color: #f2f3f2;
+  color: #4caf50;
+  border: #4caf50 1px solid;
+  font-weight: bold;
+}
+
+#delete-btn {
+  color: rgb(235, 63, 63);
+  font-weight: bold;
+  border: rgb(235, 63, 63) 1px solid;
+  transition: all ease 0.3s;
+}
+
+#delete-btn:hover {
+  color: white;
+  background-color: rgb(235, 63, 63);
+  font-weight: bold;
+  border: rgb(235, 63, 63) 1px solid;
+}
+
+ul {
+  text-align: start;
+
+  margin: 50px auto;
+  margin: 50px;
+}
+
+a {
+  color: blue;
+}
